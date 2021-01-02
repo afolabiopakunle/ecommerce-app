@@ -2,4 +2,9 @@
 
 body {
     font-size: 14px;
+    padding-top: 6rem;
+}
+
+.btn, .form-control, .card, .list-group-item:first-child, .list-group-item:last-child {
+    border-radius: 0;
 }
