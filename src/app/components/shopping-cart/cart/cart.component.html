@@ -2,7 +2,8 @@
     <div class="card-header">
         <strong>Cart</strong>
     </div>
-    <div class="card-body p-0">
+    <div class="card-body text-center bg-warning" *ngIf="cartItems.length === 0">Cart is empty</div>
+    <div class="card-body p-0" *ngIf="cartItems.length > 0">
         <ul class="list-group">
             <li class="list-group-item" *ngFor="let item of [1, 2, 3, 4, 5]">
                 <app-cart-item></app-cart-item>

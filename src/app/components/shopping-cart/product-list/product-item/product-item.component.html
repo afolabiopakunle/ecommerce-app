@@ -1,5 +1,5 @@
 <div class="card mb-4 box-shadow">
-    <img class="card-img-top pt-1" src="assets/images/wrist-watch.jpg" alt="Card image cap">
+    <img class="card-img-top pt-1" [src]="productItem.imageUrl" alt="Card image cap">
     <div class="card-body pt-1">
         <p class="text-center font-weight-bold text-primary mb-0">{{ productItem.price | currency:'NGN' }}</p>
         <p class="card-text">{{ productItem.description }}</p>
