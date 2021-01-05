@@ -4,5 +4,5 @@ export class Products {
         public name: string, 
         public description: string = '', 
         public price: number = 0, 
-        public imageUrl: string = "/assets/images/wrist-watch.jpg") {}
+        public imageUrl: string = "assets/images/wrist-watch.jpg") {}
 }
