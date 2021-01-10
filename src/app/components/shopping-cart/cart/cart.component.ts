@@ -10,15 +10,7 @@ import { ProductsService } from 'src/app/services/product.service';
 })
 export class CartComponent implements OnInit {
 
-  cartItems = [
-    // {id: 1, productName: "Product A", qty: 3, price: 200},
-    // {id: 2, productName: "Product F", qty: 6, price: 1800},
-    // {id: 3, productName: "Product E",  qty: 1, price: 100},
-    // {id: 4, productName: "Product D",  qty: 2, price: 1100},
-    // {id: 5, productName: "Product B",  qty: 3, price: 1200},
-  ];
-
-
+  cartItems = [];
   cartTotal = 0;
 
   
@@ -37,7 +29,7 @@ export class CartComponent implements OnInit {
     if(!productExists) {
       this.cartItems.push({
         productId: product.id,
-        productName: product.name,
+        productName: product.productName,
         qty: 1,
         price: product.price
       })
@@ -50,16 +42,11 @@ export class CartComponent implements OnInit {
   ngOnInit(): void {
 
     this.msg.getMessage().subscribe((product: Products) => {
-
       this.addProductToCart(product)
+      console.log(product)
       this.cartItems.forEach(item => {
         this.cartTotal += (item.price * item.qty)
       })
     })
-
-
   }
-
-
-
 }
