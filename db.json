@@ -10,21 +10,21 @@
     {
       "id": 2,
       "price": 300,
-      "productName": "Risky",
+      "productName": "Square woods",
       "imageUrl": "https://cdn.shopify.com/s/files/1/0122/1342/0089/products/squaregyrobi_1024x1024.jpg?v=1539615657",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem"
     },
     {
       "id": 3,
       "price": 800,
-      "productName": "Squiqly",
+      "productName": "Noah's Ark",
       "imageUrl": "https://cdn.shopify.com/s/files/1/1151/3396/products/Tender_Leaf_Toys_8305_Noah_s_Shape_Sorter_Ark_2_1024x.jpg?v=1595338683",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
     {
       "id": 4,
       "price": 500,
-      "productName": "Squiqly",
+      "productName": "Box in Box",
       "imageUrl": "https://image.made-in-china.com/202f0j00HqzGisSlbjka/Rainbow-Set-Box-Educational-Wooden-Box-Rainbow-Toys-Square-Shape-Building-Blocks.jpg",
       "description": "Tixl´s interoperable layer 1 network enables any asset (incl. BTC) to be transferred instantly & with 0 to almost 0 costs"
     },
